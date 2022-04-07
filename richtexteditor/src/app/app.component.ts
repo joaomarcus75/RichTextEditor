@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'richtexteditor';
+
+  public customToolbar: Object ={
+    items: ['Bold', 'Italic', 'Undo','Redo','CreateTable','Image','CreateLink']
+  }
 }
